@@ -1,7 +1,8 @@
 :root {
     --color-principal:#faf9f7;
     --color-secundario:#000000;
-    --color-terciario:#a9a4a4;
+    --color-terciario:#000000;
+     --color-ultimo:#a8a6a6;
  
     --font-principal:'Montserrat', sans-serif;
     --font-secundaria:'Montserrat', sans-serif;
@@ -505,11 +506,11 @@ label .grupo-opciones {
 .formulario input:focus,
 .formulario select:focus,
 .formulario textarea:focus {
-    outline: 2px solid var(--color-terciario);
+    outline: 2px solid var(--color-ultimo);
 }
 
 .formulario input[type="radio"] {
-    accent-color: var(--color-terciario);
+    accent-color: var(--color-ultimo);
 }
 
 .formulario input:focus::placeholder,
